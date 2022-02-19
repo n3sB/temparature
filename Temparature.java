@@ -10,7 +10,7 @@ public class Temparature {
 
         System.out.print("What is the temperature? ");
         temparature = scanner.nextInt();
-
+        scanner.close();
         if(temparature < 5){
             System.out.println("You should ski");
         }else if(5 <= temparature && temparature <= 15){
